@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html{
+    --line-color: #e5e7eb
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
+
