@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import MenuCategory from '../../Menu/menuCategory'
+import MenuCategory from './menuCategory'
 import { Pacifico } from 'next/font/google'
 const pacifico = Pacifico({
   subsets: ['latin'],

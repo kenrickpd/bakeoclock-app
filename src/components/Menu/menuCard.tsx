@@ -19,7 +19,6 @@ export default function MenuCard({ item }: Props) {
         w-[calc(50%-10px)]
         sm:w-[calc(50%-10px)]
         lg:w-[calc(33.333%-14px)]
-        h-80
         bg-white
         rounded-xl
         shadow-xl
@@ -28,7 +27,6 @@ export default function MenuCard({ item }: Props) {
         overflow-hidden
   '
         >
-            {/* Image */}
             <div className='relative h-44'>
                 <Image
                     src={item.image}
@@ -38,7 +36,6 @@ export default function MenuCard({ item }: Props) {
                 />
             </div>
 
-            {/* Content */}
             <div className='p-3 space-y-1'>
                 <h3 className='text-sm font-semibold text-gray-800'>
                     {item.name}
