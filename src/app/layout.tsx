@@ -28,11 +28,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white min-h-screen flex flex-col`}
       >
         <CartProvider>
         <Header />
-        {children}
+        <main className="flex-1">
+          {children}
+        </main>
         </CartProvider>
         <Footer />
       </body>

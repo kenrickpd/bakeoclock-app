@@ -1,4 +1,4 @@
-import MenuPage from "@/src/components/pages/Menu";
+import MenuPage from "@/src/components/Menu";
 
 export default function Page() {
     return <MenuPage />;
