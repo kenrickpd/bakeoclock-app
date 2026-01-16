@@ -17,7 +17,7 @@ export default function CheckoutPage() {
     return (
         <div className={`flex justify-center flex-col sm:px-120 pb-10 pt-5 ${pacifico.variable} px-5`}>
           <h1 className='text-center text-pink-300 text-4xl font-script tracking-wide text-shadow-md h-15'>Checkout</h1>
-            <div className='flex flex-col bg-pink-200 gap-10 px-5 sm:px-10 py-10 rounded-xl'>
+            <div className='flex flex-col bg-pink-200 gap-10 px-5 sm:px-10 py-10 rounded-xl shadow-2xl'>
                 <CartSummary />
 
                 <CustomerForm onValidityChange={setCanCheckout} />
